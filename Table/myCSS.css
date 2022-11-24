@@ -1,0 +1,35 @@
+#table,th,td,#table1{
+    margin: auto;
+    border: solid 1px black ;
+}
+#table {
+
+    border-collapse: collapse;
+    background-color: aqua;
+    color: black;
+}   
+#table1{  
+    border-collapse: collapse;
+    color: black;
+    background-color: yellow;
+}
+
+#table tr :hover{
+background-color: yellow;
+}
+#table td :hover{
+    background-color: yellow;
+}
+#table th :hover{
+    background-color: yellow;
+}
+
+#table1 tr :nth-child(even):hover{
+    background-color: white;
+}
+#table1 tr :nth-child(odd):hover{
+    background-color: white;
+}
+img{
+    border: solid 1px ; width: 150px; height: 250px ;
+}
